@@ -24,7 +24,7 @@ jobs:
           deno-version: v2.x
 
       - name: Install step
-        run: "deno --allow-scripts install"
+        run: "deno install --allow-scripts=npm:@sveltejs/kit@2.7.2"
 
       - name: Build step
         run: "deno run build"
