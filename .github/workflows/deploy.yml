@@ -35,5 +35,3 @@ jobs:
           project: "cahva-hollywood-34"
           entrypoint: "mod.ts"
           root: "build"
-          
-          
