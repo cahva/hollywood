@@ -24,7 +24,7 @@ jobs:
           deno-version: v2.x
 
       - name: Install step
-        run: "deno install"
+        run: "deno --allow-scripts install"
 
       - name: Build step
         run: "deno run build"
